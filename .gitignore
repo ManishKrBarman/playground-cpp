@@ -1,0 +1,149 @@
+# C++ compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# C++ compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# C++ compiled static libraries
+*.a
+*.lib
+*.lai
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Build directories
+build/
+Build/
+BUILD/
+bin/
+Bin/
+BIN/
+obj/
+Obj/
+OBJ/
+target/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cbp
+
+# IDE and editor files
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Code::Blocks
+*.layout
+*.depend
+
+# Dev-C++
+*.dev
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+*.ui
+
+# Temporary files
+*~
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.log
+
+# OS generated files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Package managers
+vcpkg_installed/
+conan.lock
+conanbuild.txt
+conanrun.txt
+
+# Test coverage
+*.gcda
+*.gcno
+*.gcov
+coverage.info
+lcov.info
+
+# Profiling
+gmon.out
+*.prof
+
+# Core dumps
+core
+*.core
+
+# Documentation generated files
+doc/html/
+doc/latex/
+Doxyfile.bak
