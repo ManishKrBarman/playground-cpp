@@ -99,7 +99,7 @@ main.exe
 # Get all the files at once `saves intermediate files`
 g++ -save-temps main.cpp -o main.exe
 ```
-
+---
 <div align='center'>
 If I missed anything, feel free to reach me
 </div>

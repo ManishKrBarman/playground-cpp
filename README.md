@@ -4,7 +4,9 @@ This repository is a structured playground to practice and explore various C++ c
 
 ## 📚 Topics Covered
 
-- ✅ **Basic I/O Operations** - Hello World program with `iostream`
+- ✅ **C++ Workflow** — Compilation process from source to executable (`00_workflow/`)
+- ✅ **Basic I/O Operations** — Hello World with `iostream` (`01_hello/`)
+- ✅ **Variables & Data Types** — Introduction to variables (`02_variables/`)
 - 🔄 **More topics coming soon...**
 
 ## 💡 Purpose
@@ -18,11 +20,16 @@ This repository is a structured playground to practice and explore various C++ c
 
 ```
 🗂️ playground-cpp/
+├── 📂 00_workflow/       # C++ compilation workflow & process
+│   ├── main.cpp          # Basic Hello World source code
+│   └── notes.md          # Detailed workflow documentation
 ├── 📂 01_hello/          # Basic Hello World program
-│   ├── 01_hello.cpp      # Source code
-│   └── output.exe        # Compiled executable
-├── ...            
-└── README.md         
+│   ├── hello.cpp         # Source code
+│   └── notes.md          # Program analysis & explanation
+├── ...
+│
+├── 📄 env.md             # Development environment setup guide
+└── 📄 README.md          # Project overview and structure
 ```
 
 ## ⚙️ Compile & Run a C++ File
@@ -34,15 +41,16 @@ output.exe                    # Executes the program (Windows)
 
 ### 📝 Example with a project:
 ```cmd
-cd 01_hello
-g++ 01_hello.cpp -o output.exe
-output.exe
+cd 00_workflow
+g++ main.cpp -o main.exe
+main.exe
 ```
 ---
 
 ## 📌 Notes:
-
--
+- Each project folder contains detailed notes explaining concepts and implementation
+- Check `env.md` for complete development environment setup instructions
+- Use the provided compilation commands to build and run each project
 
 ---
 <div align='center'>
