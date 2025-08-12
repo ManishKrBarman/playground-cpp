@@ -14,6 +14,9 @@ This repository is a structured playground to practice and explore various C++ c
 - ✅ **Control Flow** — Break, continue, return, exception handling (`07_control_flow/`)
 - ✅ **Pointers** — Memory addresses, dynamic allocation, pointer arithmetic (`08_pointers/`)
 - ✅ **References** — Aliasing, pass-by-reference, const references (`09_references/`)
+- ✅ **Classes** — Object-oriented programming, constructors, destructors (`10_classes/`)
+- ✅ **Structs** — Data structures, member functions, initialization (`11_structs/`)
+- ✅ **Static** — Static variables, static functions, storage classes (`12_static/`)
 - 🔄 **More topics coming soon...**
 
 ## 💡 Purpose
