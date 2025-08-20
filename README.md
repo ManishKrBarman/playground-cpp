@@ -55,6 +55,11 @@ cd 00_workflow
 g++ main.cpp -o main.exe
 main.exe
 ```
+
+## 📚 Resources
+
+- [Microsoft C++ Documentation](https://learn.microsoft.com/en-us/cpp/cpp/) - Official Microsoft documentation for C++
+
 ---
 
 ## 📌 Notes:
